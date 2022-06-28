@@ -1,0 +1,75 @@
+body{ 
+    background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+    }
+    .registration{
+    position: absolute;
+    top: 39% ;
+    left: 27%;
+    padding:79px;
+    height: 230px;
+    width: 600px;
+    }
+    *{
+    padding:0;
+    margin:1%;
+    }
+    .login{
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    padding: 30px;
+    }
+    .registration input{
+    border: 2px solid rgb(146, 40, 40);
+    border-radius: 3px;
+    width: 250px;
+    height: 40px;
+    text-align:center;
+    }
+    h1{
+    font-family:Blaka;
+    position: absolute;
+    bottom: 300px;
+    left: 220px;
+    }
+    h2{
+    font-family:Blaka;
+    font-size: 35px;
+    text-align: center;
+    }
+    .login input{
+    border: 2px solid rgb(102, 38, 38);
+    border-radius: 3px;
+    width: 250px;
+    height: 40px;
+    text-align:center;
+    }
+    button{
+    background-color: rgb(132, 190, 230);
+    height: 40px;
+    width: 170px;
+    }
+    th{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    }
+    td{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(14, 1, 1);
+    font-size: 20px;
+    }
+    table{
+    margin: auto;
+    }
+    .logout{
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    <?php $con = mysqli_connect("localhost", "root", "");
+$db = mysqli_select_db($con, "burger"); ?>
+    }
+    
+    
